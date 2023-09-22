@@ -8,40 +8,54 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="/normalize.css">
         <link rel="stylesheet" href="/styles.css">
+        <link href="https://fonts.cdnfonts.com/css/futura-pt" rel="stylesheet">
+        <script src="/script.js"  defer></script>
+        
+                
     </head>
     <body>
+        <div class="background-header">
 
+      
         <header>
-            <nav class="site-nav">
-                <div class="top-nav">
-                    <img src="img/logo.png" alt="Couture Logo">
-                    <ul>
-                        <li><a href="#">Sign in</a></li>
-                        <li><a href="#">Cart</a></li>
-                    </ul>
-                    
-                </div>
-                <div class="bot-nav">
-                    <ul>
-                        <li><a href="#">New Arrival</a></li>
-                        <li><a href="#">Sale</a></li>
-                        <li><a href="#">Mens</a></li>
-                        <li><a href="#">Womens</a></li>
-                    </ul>
+            <div class="top-nav">
 
-                    <form class="search-content" for="search-content">
-                        <input type="text" name="search" id="search" placeholder="Jackets">
-                        <button type="submit">Search</button>
-                    </form>
-                </div>                
-            </nav>
+           
+            <img src="/img/nav-logo.png" class="brand-title" alt="couture logo">
 
-            <div class="hero">
-                <h1>Modern Couture, Timeless Style</h1>
-                <h3>Discover the Perfect Blend</h3>
-                <button class="primary-btn">Shop Now</button>
-            </div>            
+            <img src="/img/hamburger-menu.svg" class="toggle-icon" alt="icon">
+
+            </div>
+
+            
+            <nav class="navbar">
+                <ul class="navbar-links">
+                    <li><a href="#">New Arrival</a></li>
+                    <li><a href="#">Sale</a></li>
+                    <li><a href="#">Mens</a></li>
+                    <li><a href="#">Womens</a></li>
+                    <li><a href="#">Sign in</a></li>
+                    <li><a href="#">Cart</a></li>
+                </ul>
+            </nav>      
+
         </header>
+
+        <form class="search-content" for="search-content">
+            <input type="text" name="search" id="search" placeholder="Jackets, Dresses, Pants,">
+            <button type="submit">Search</button>
+        </form>
+
+        </div>
+        
+
+
+        <div class="hero">
+            <h1>Modern Couture, Timeless Style</h1>
+            <h3>Discover the Perfect Blend</h3>
+            <button class="primary-btn">Shop Now</button>
+        </div>            
+    
 
         <div class="intro">
             <p>At Couture, we believe that fashion is not just about clothing; it's about self-expression, confidence, and celebrating your individuality. Our collection of modern-styled clothing is curated to empower you to embrace your unique style, to feel confident in every outfit, and to make a statement with each piece you wear.</p>
@@ -151,6 +165,6 @@
             <img src="/img/logo.png" alt="Couture logo">
         </footer>
 
-        <script src="/script.js" async defer></script>
+
     </body>
 </html>

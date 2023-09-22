@@ -1,0 +1,217 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Futura PT', sans-serif;
+    font-size: 18px;
+}
+
+li{
+    list-style: none
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+/* Content margins */
+
+/* Nav */
+
+.background-header{
+    background-color: black;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 64px;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-bottom: 1px solid white;
+}
+
+.navbar li a{
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.brand-title{
+    width: 90px;
+}
+
+.toggle-icon{
+    display: none;
+}
+
+.navbar-links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-links li{
+    margin: 1rem;
+}
+
+.navbar-links li a:hover{
+    background-color: white;
+    color: black;
+}
+
+.background-header form{
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 2rem 0;
+}
+
+.background-header form input{
+    padding: 0.5rem;
+    width: 300px;
+    border-radius: 5px;
+    font-style: italic;
+}
+
+.background-header form button{
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+}
+
+
+  
+
+
+
+@media screen and (max-width: 705px){
+    .navbar{
+        display: none;
+    }
+    .top-nav{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .navbar-links{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .navbar.active {
+        display: flex;
+        justify-content: center;
+      }
+    
+    
+    .toggle-icon{
+        display: flex;
+    }
+    header {
+        display: flex;
+        padding: 1rem 2rem;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .navbar{
+        width: 100%;
+
+    }
+    .navbar-links li{
+        text-align: center;
+    }
+
+    .background-header form{
+        display: flex;
+        justify-content: center;
+        gap: 0.5rem;
+        padding: 1rem 0;
+    }
+    
+    .background-header form input{
+        padding: 0.5rem;
+        width: 300px;
+        border-radius: 5px;
+        font-style: italic;
+    }
+    
+    .background-header form button{
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+        background-color: white;
+        color: black;
+    }
+    
+}
+
+
+
+
+@media screen and (min-width: 1000px){
+/* Nav */
+/* .site-nav{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 64px;
+    background-color: #000;
+}
+
+.site-nav a{
+    color: white;
+}
+
+.site-nav img{
+    width: 100px;
+}
+
+.top-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-nav ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 64px;
+}
+
+
+.bot-nav{
+    display: flex;
+    justify-content: center;
+    background-color: #00000038;
+    padding: 1rem;
+}
+
+.bot-nav form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.bot-nav input{
+    padding: 0.5rem;
+    width: 500px;
+    border-radius: 5px;
+    font-style: italic;
+}
+
+.bot-nav button{
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+} */
+
+}
