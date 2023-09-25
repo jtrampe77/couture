@@ -182,6 +182,66 @@ header{
     margin: 0 2rem 6rem 2rem;
 }
 
+.category h4{
+    font-size: 2rem;
+    color: white;
+}
+
+.category:hover h4{
+    font-size: 4rem;
+    transition: 0.5s;
+}
+
+
+.category{
+    height: 50vh;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
+}
+
+.category-mens{
+    background: linear-gradient(rgba(0, 0, 0, 0.411), rgba(0, 0, 0, 0.027)), url(./img/mens-category.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.category-womens{
+    background: linear-gradient(rgba(0, 0, 0, 0.411), rgba(0, 0, 0, 0.027)), url(./img/womens-category.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer div{
+    margin-bottom: 2rem;
+}
+
+.social-media ul{
+    display: flex;
+    gap: 1rem;
+
+}
+
+footer img{
+    width: 20%;
+    text-align: center;
+}
+
 
 
 /* Mobile */
@@ -242,6 +302,11 @@ header{
         border-radius: 5px;
         background-color: white;
         color: black;
+    }
+
+    /* gallery */
+    .gallery{
+        display: none;
     }
     
 }
