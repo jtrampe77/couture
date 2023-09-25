@@ -342,7 +342,11 @@ footer img{
     .gallery .grid-container{
         display: grid;
         grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(3,1fr);
+        /* grid-template-rows: repeat(3,1fr); */
+    }
+
+    .wide{
+        grid-column: 1/3;
     }
     
 
