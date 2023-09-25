@@ -337,17 +337,17 @@ footer img{
         display: grid;
         grid-template-columns: repeat(2,1fr);
         gap: 4rem;
+        margin-bottom: 6rem;
     }
 
     .gallery .grid-container{
         display: grid;
         grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto auto;
         /* grid-template-rows: repeat(3,1fr); */
     }
 
-    .wide{
-        grid-column: 1/3;
-    }
+
     
 
 }
