@@ -8,10 +8,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="/normalize.css">
         <link rel="stylesheet" href="/styles.css">
+        <link rel="stylesheet" href="/lightbox.css">
         <link href="https://fonts.cdnfonts.com/css/futura-pt" rel="stylesheet">
         <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
+        <script src="/lightbox-plus-jquery.js"></script>
 
         <script src="/script.js"  defer></script>
         
@@ -23,12 +25,8 @@
       
         <header>
             <div class="top-nav">
-
-           
-            <img src="/img/nav-logo.png" class="brand-title" alt="couture logo">
-
-            <img src="/img/hamburger-menu.svg" class="toggle-icon" alt="icon">
-
+                <img src="/img/nav-logo.png" class="brand-title" alt="couture logo">
+                <img src="/img/hamburger-menu.svg" class="toggle-icon" alt="icon">
             </div>
 
             
@@ -126,25 +124,32 @@
         <div class="gallery">
             <h2>Gallery</h2>
             <p>Step into our gallery of outfits at Couture, where fashion becomes a canvas for self-expression. Each ensemble on display is a carefully crafted masterpiece, reflecting the very essence of modern elegance and style.</p>
-            <!-- <div class="grid-container">
-                <div class="grid-item grid-item-1">
-                    <img src="img/gallery2.png" alt="gallery 2">
-                </div>
-                <div class="grid-item grid-item-2"><img src="img/gallery1.png" alt="gallery 1"></div>
-                <div class="grid-item grid-item-3"><img src="img/gallery3.png" alt="gallery 3"></div>
-                <div class="grid-item grid-item-4"><img src="img/gallery4.png" alt="gallery 4"></div>
-                <div class="grid-item grid-item-5"><img src="img/gallery5.png" alt="gallery 5"></div>
-            </div> -->
 
             <div class="grid-container">
-                <img src="img/gallery2.png" alt="gallery 2" class="grid-item grid-item-1" >
-                <img src="img/gallery1.png" alt="gallery 1" class="grid-item grid-item-2">
-                <img src="img/gallery3.png" alt="gallery 3" class="grid-item grid-item-3">
-                <img src="img/gallery4.png" alt="gallery 4" class="grid-item grid-item-4">
-               <img src="img/gallery5.png" alt="gallery 5" class="grid-item grid-item-5">
-            </div>
-        </div>
+                <a href="img/gallery2.png" data-lightbox="models" data-title="Elevate Your Style: Discover Our Latest Men's Collection"  class="grid-item-1" >
+                    <img src="img/gallery2.png" alt="gallery 2" class="grid-item">
+                </a>
 
+                <a href="img/gallery1.png" data-lightbox="models" data-title="Empower Your Wardrobe: Unleash Confidence with Our Women's Attire." class="grid-item grid-item-2">
+                    <img src="img/gallery1.png" alt="gallery 1" class="grid-item" >
+                </a>
+
+                <a href="img/gallery3.png" data-lightbox="models" data-title="Timeless Elegance: Embrace Feminine Grace in Our Fashion Selection." class="grid-item grid-item-3" >
+                    <img src="img/gallery3.png" alt="gallery 3" class="grid-item">
+                </a>
+
+                <a href="img/gallery4.png" data-lightbox="models" data-title="Celebrate Your Style: Unveil the Beauty of Women's Clothing Trends." class="grid-item-4" >
+                  <img src="img/gallery4.png" alt="gallery 4" class="grid-item">  
+                </a>
+
+                <a href="img/gallery5.png" data-lightbox="models" data-title="Dapper and Distinct: Explore Men's Fashion That Speaks Volumes." class="grid-item-5">
+                    <img src="img/gallery5.png" alt="gallery 5" class="grid-item" >
+                </a>
+               
+            </div>
+
+           
+        </div>
 
         <footer>
             <div class="footer-contents">
@@ -186,6 +191,6 @@
             </div>
         </footer>
 
-
+        
     </body>
 </html>

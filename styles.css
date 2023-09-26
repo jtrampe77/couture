@@ -251,6 +251,7 @@ footer img{
 
 
 
+
 /* Mobile */
 @media screen and (max-width: 900px){
     .navbar{
@@ -343,6 +344,11 @@ footer img{
         gap: 1rem;
     }
 
+    .card{
+        cursor: pointer;
+        margin-bottom: 2rem;
+    }
+
     .shop-by-category .category-container{
         display: grid;
         grid-template-columns: repeat(2,1fr);
@@ -378,8 +384,6 @@ footer img{
     .grid-item-2 {
         grid-row: 1 / span 1;
         grid-column: 2 / span 2;
-
-        width: 100%;
     }
     
     .grid-item-3 {
@@ -400,6 +404,7 @@ footer img{
     .gallery{
         margin-bottom: 6rem;
     }
+
 
     .footer-details{
         display: flex;
