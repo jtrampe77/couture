@@ -137,9 +137,9 @@ header{
 }
 
 .hero button:hover{
-    background-color: black;
+    background-color: grey;
     color: white;
-    font-weight: bold;
+
 }
 
 
@@ -175,6 +175,20 @@ header{
 
 .card p{
     font-weight: lighter;
+}
+
+.card button{
+    padding: 1rem 2rem;
+    margin: 1rem 0;
+    background-color: black;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card button:hover{
+    background-color: grey;
 }
 
 /* Shop by category */
